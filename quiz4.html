@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Dudh Khichdi / Paneer Butter Masala</title>
+    </head>
+    <body style="margin:0; background:rgb(149, 154, 255); height: 100vh; display:flex; justify-content:center; align-items:center;">
+        
+
+
+
+  <h2>Bataa bataa....!!!
+    <p>Main tere se friend kb hua tha?</p>
+  </h2>
+
+  <input type="password" id="secret" placeholder="Bolo boloo...😁" style="padding:10px; font-size:16px;">
+  <br><br>
+  <button onclick="checkPassword()" style="padding:10px 20px; font-size:16px;">Submit</button>
+
+  <script>
+    function checkPassword() {
+      var userInput = document.getElementById("secret").value;
+
+      if (userInput === "26/07/2017") {   // 👈 change this to your own password
+        window.location.href = "final.html";  // 👈 your target page
+      } else {
+        alert("Ye kaise ydd nhii h😭.");
+      }
+    }
+  </script>
+
+</body>
+</html>
